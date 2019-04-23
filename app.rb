@@ -8,7 +8,7 @@ module FormsLab
     end
 
     get '/pirates' do
-      erb pirates/:show
+      erb ./views/pirates/:show
       end
     end
 end
