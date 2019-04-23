@@ -14,5 +14,3 @@ class Pirate
     PIRATES
   end
 end
-
-end
