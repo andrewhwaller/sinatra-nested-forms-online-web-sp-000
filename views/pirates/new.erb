@@ -1,7 +1,17 @@
 <h1>Let's make some ships and pirates!</h1>
 <form method="post" action="/pirates">
-  <label for="new_pirate">Pirate:</label>
-  <input type="text" id="new_pirate" name="new_pirate">
+  <h2>Pirate</h2>
+  <br>
+  <label for="pirate_name">Name:</label>
+  <input type="text" id="pirate_name" name="pirate[name]">
+  <label for="pirate_weight">Weight:</label>
+  <input type="text" id="pirate_weight" name="pirate[weight]">
+  <label for="pirate_height">Height:</label>
+  <input type="text" id="pirate_height" name="pirate[height]">
+
+
+
+  
   <label for="ship_name_1">Ship 1:</label>
   <input type="text" id="ship_name_1" name="pirate[ships][][name]">
   <label for="ship_name_2">Ship 2:</label>
